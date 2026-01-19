@@ -1,4 +1,8 @@
+import { useState } from 'react'
+
 export default function MenuScreen({ userName, setStage, decisions, dilemmata, setShowModal, showModal, philosophicalTheories }) {
+  const [expandedTheory, setExpandedTheory] = useState(null)
+
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl p-8 fade-in">
@@ -130,13 +134,12 @@ export default function MenuScreen({ userName, setStage, decisions, dilemmata, s
                     'bg-pink-50 border-pink-300',
                     'bg-orange-50 border-orange-300'
                   ];
-                  const [expanded, setExpanded] = React.useState(null);
-                  const isExpanded = expanded === key;
+                  const isExpanded = expandedTheory === key;
 
                   return (
                     <div key={key} className="relative">
                       <button
-                        onClick={() => setExpanded(isExpanded ? null : key)}
+                        onClick={() => setExpandedTheory(isExpanded ? null : key)}
                         className={`w-full text-left p-6 rounded-xl border-2 transition-all hover:shadow-lg ${
                           isExpanded ? bgColors[index % colors.length] + ' ring-4 ring-opacity-50' : 'bg-gray-50 border-gray-200 hover:border-gray-400'
                         }`}

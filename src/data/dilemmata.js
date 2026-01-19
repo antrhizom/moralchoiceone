@@ -86,7 +86,7 @@ export const dilemmata = [
           title: "Utilitarismus",
           philosophers: "Peter Singer",
           core: "Konsequenzen zählen, nicht Intuitionen.",
-          details: "Radikaler Konsequenzialismus.",
+          details: "Radikaler Konsequenzialismus ignoriert moralische Intuitionen zugunsten reiner Zahlenlogik.",
           strength: "Logisch konsistent.",
           weakness: "Verstösst gegen moralische Intuitionen."
         }
@@ -135,7 +135,7 @@ export const dilemmata = [
         text: "Ja, stehlen ist gerechtfertigt",
         principle: "Naturrecht",
         philosopher: "John Locke",
-        explanation: "Das Recht auf Leben ist ein fundamentales Naturrecht, das allen Menschen von Natur aus zusteht. Es überwiegt das Eigentumsrecht. In extremen Notlagen darf Eigentum verletzt werden.",
+        explanation: "Das Recht auf Leben ist ein fundamentales Naturrecht. Es überwiegt das Eigentumsrecht. In extremen Notlagen darf Eigentum verletzt werden.",
         percentage: 65,
         theory: {
           title: "Naturrecht",
@@ -150,7 +150,7 @@ export const dilemmata = [
         text: "Nein, Gesetze gelten für alle",
         principle: "Rechtspositivismus",
         philosopher: "Thomas Hobbes",
-        explanation: "Ohne Respekt vor Gesetzen und Eigentum herrscht Chaos. Wenn jeder nach eigenem Ermessen Gesetze bricht, kollabiert die soziale Ordnung.",
+        explanation: "Ohne Respekt vor Gesetzen herrscht Chaos. Wenn jeder nach eigenem Ermessen Gesetze bricht, kollabiert die soziale Ordnung.",
         percentage: 15,
         theory: {
           title: "Rechtspositivismus",
@@ -165,7 +165,7 @@ export const dilemmata = [
         text: "Andere Lösungen suchen",
         principle: "Diskursethik",
         philosopher: "Jürgen Habermas",
-        explanation: "Heinz sollte den rationalen Diskurs suchen: öffentliche Kampagnen, rechtliche Wege, Spenden sammeln. Legitime Lösungen entstehen durch kommunikatives Handeln.",
+        explanation: "Heinz sollte den rationalen Diskurs suchen: öffentliche Kampagnen, rechtliche Wege, Spenden sammeln.",
         percentage: 18,
         theory: {
           title: "Diskursethik",
@@ -180,7 +180,7 @@ export const dilemmata = [
         text: "Fürsorge für Nahestehende hat Vorrang",
         principle: "Care-Ethik",
         philosopher: "Carol Gilligan",
-        explanation: "Heinz hat eine besondere Verantwortung für seine Frau. Die Care-Ethik betont: Moralische Urteile entstehen aus Beziehungen und konkreter Fürsorge.",
+        explanation: "Heinz hat eine besondere Verantwortung für seine Frau. Die Care-Ethik betont: Moralische Urteile entstehen aus Beziehungen.",
         percentage: 2,
         theory: {
           title: "Care-Ethik",
@@ -268,14 +268,14 @@ export const dilemmata = [
     id: 5,
     title: "Das Rettungsboot-Dilemma",
     shortDesc: "Ein Rettungsboot mit 50 Personen kann 10 weitere aufnehmen. 100 Menschen schwimmen im Wasser.",
-    description: "Ein Schiff ist gesunken. Ein Rettungsboot mit Kapazität für 60 Personen schwimmt im Meer mit bereits 50 Geretteten. Im Wasser schwimmen noch 100 Menschen, die alle ertrinken werden. Wenn du alle ins Boot holst, wird es wahrscheinlich kentern.",
+    description: "Ein Schiff ist gesunken. Ein Rettungsboot mit Kapazität für 60 Personen schwimmt im Meer mit bereits 50 Geretteten. Im Wasser schwimmen noch 100 Menschen. Wenn du alle ins Boot holst, wird es wahrscheinlich kentern.",
     question: "Wie entscheidest du?",
     options: [
       {
         text: "Alle aufnehmen (Risiko: alle sterben)",
         principle: "Kantsche Gleichbehandlung",
         philosopher: "Immanuel Kant",
-        explanation: "Jeder Mensch hat die gleiche Würde. Eine Selektion würde bedeuten, manche Menschen als weniger wertvoll zu behandeln. Selbst wenn es zum Tod aller führt, ist Gleichbehandlung das höhere Prinzip.",
+        explanation: "Jeder Mensch hat die gleiche Würde. Eine Selektion würde bedeuten, manche Menschen als weniger wertvoll zu behandeln.",
         percentage: 5,
         theory: {
           title: "Deontologie",
@@ -290,7 +290,7 @@ export const dilemmata = [
         text: "10 nach objektiven Kriterien auswählen",
         principle: "Utilitaristischer Triage-Ansatz",
         philosopher: "Peter Singer",
-        explanation: "Rationale Selektion nach Überlebenschancen maximiert die Anzahl geretteter Leben. Kriterien könnten sein: Alter, Gesundheitszustand, Verantwortung für Abhängige.",
+        explanation: "Rationale Selektion nach Überlebenschancen maximiert die Anzahl geretteter Leben.",
         percentage: 45,
         theory: {
           title: "Utilitarismus",
@@ -305,7 +305,7 @@ export const dilemmata = [
         text: "Losverfahren für 10 Plätze",
         principle: "Rawls' Fairness-Prinzip",
         philosopher: "John Rawls",
-        explanation: "Hinter dem 'Schleier des Nichtwissens' würden alle einem fairen Zufallsverfahren zustimmen. Ein Losverfahren behandelt alle fair und vermeidet diskriminierende Kriterien.",
+        explanation: "Hinter dem 'Schleier des Nichtwissens' würden alle einem fairen Zufallsverfahren zustimmen.",
         percentage: 38,
         theory: {
           title: "Kontraktualismus",
@@ -320,7 +320,7 @@ export const dilemmata = [
         text: "Niemanden mehr aufnehmen",
         principle: "Verantwortungsethik",
         philosopher: "Hans Jonas",
-        explanation: "Verantwortung für die bereits Anvertrauten hat Vorrang. Die 50 im Boot haben dir bereits ihr Leben anvertraut. Diese Verantwortung darfst du nicht aufs Spiel setzen.",
+        explanation: "Verantwortung für die bereits Anvertrauten hat Vorrang. Die 50 im Boot haben dir bereits ihr Leben anvertraut.",
         percentage: 12,
         theory: {
           title: "Verantwortungsethik",
@@ -338,7 +338,7 @@ export const dilemmata = [
     id: 6,
     title: "Das Autonome Fahrzeug-Dilemma",
     shortDesc: "Ein selbstfahrendes Auto gerät in eine unvermeidbare Unfallsituation.",
-    description: "Ein autonomes Fahrzeug fährt mit fünf Passagieren durch eine schmale Strasse. Plötzlich erscheinen drei Fussgänger auf der Fahrbahn. Die einzige Alternative: Gegen eine Mauer fahren, wodurch die fünf Insassen sterben würden.",
+    description: "Ein autonomes Fahrzeug fährt mit fünf Passagieren. Plötzlich erscheinen drei Fussgänger auf der Fahrbahn. Die einzige Alternative: Gegen eine Mauer fahren, wodurch die fünf Insassen sterben würden.",
     question: "Wie sollte das Fahrzeug programmiert sein?",
     options: [
       {
@@ -360,7 +360,7 @@ export const dilemmata = [
         text: "Insassen schützen",
         principle: "Vertragstheorie",
         philosopher: "Thomas Hobbes",
-        explanation: "Die Insassen haben durch Kauf einen Vertrag mit dem Hersteller geschlossen. Hobbes: Verträge sind die Basis der Gesellschaft. Niemand würde ein Auto kaufen, das ihn opfert.",
+        explanation: "Die Insassen haben durch Kauf einen Vertrag mit dem Hersteller geschlossen. Niemand würde ein Auto kaufen, das ihn opfert.",
         percentage: 41,
         theory: {
           title: "Kontraktualismus",
@@ -375,7 +375,7 @@ export const dilemmata = [
         text: "Niemanden aktiv opfern",
         principle: "Doppelwirkungslehre",
         philosopher: "Thomas von Aquin",
-        explanation: "Das Auto darf niemanden gezielt töten. Gegen die Mauer zu fahren wäre aktive Tötung der Insassen. Das Auto sollte nur reagieren auf die existierende Gefahr.",
+        explanation: "Das Auto darf niemanden gezielt töten. Gegen die Mauer zu fahren wäre aktive Tötung der Insassen.",
         percentage: 15,
         theory: {
           title: "Doktrin der Doppelwirkung",
@@ -390,7 +390,7 @@ export const dilemmata = [
         text: "Keine Qualifizierung nach Merkmalen",
         principle: "Deutsche Ethik-Kommission",
         philosopher: "Grundgesetz Art. 1",
-        explanation: "Die deutsche Ethik-Kommission (2017): Jede Qualifizierung nach Alter, Geschlecht oder anderen Merkmalen ist unzulässig. Die Menschenwürde verbietet Aufrechnung.",
+        explanation: "Jede Qualifizierung nach Alter, Geschlecht ist unzulässig. Die Menschenwürde verbietet Aufrechnung.",
         percentage: 10,
         theory: {
           title: "Menschenwürde (GG)",
@@ -408,14 +408,14 @@ export const dilemmata = [
     id: 7,
     title: "Das Chirurgen-Dilemma",
     shortDesc: "Ein Chirurg hat fünf todkranke Patienten und einen gesunden Touristen.",
-    description: "Ein Transplantations-Chirurg hat fünf Patienten, die ohne sofortige Organtransplantationen sterben werden. Ein junger, gesunder Tourist kommt wegen einer kleineren Verletzung zur Behandlung. Seine Gewebemerkmale passen perfekt zu allen fünf Patienten.",
+    description: "Ein Transplantations-Chirurg hat fünf Patienten, die ohne sofortige Organtransplantationen sterben werden. Ein gesunder Tourist kommt wegen einer kleineren Verletzung zur Behandlung. Seine Gewebemerkmale passen perfekt.",
     question: "Darf der Chirurg den Touristen opfern?",
     options: [
       {
         text: "Nein, das ist Mord",
         principle: "Kategorischer Imperativ",
         philosopher: "Immanuel Kant",
-        explanation: "Dies wäre die extremste Form der Instrumentalisierung: Ein Mensch wird zur reinen Ersatzteilquelle degradiert. Kant: 'Der Mensch ist Zweck an sich selbst.' Die Menschenwürde ist nicht abwägbar.",
+        explanation: "Dies wäre extremste Instrumentalisierung: Ein Mensch wird zur reinen Ersatzteilquelle degradiert. Die Menschenwürde ist nicht abwägbar.",
         percentage: 96,
         theory: {
           title: "Deontologie",
@@ -430,7 +430,7 @@ export const dilemmata = [
         text: "Fünf Leben sind mehr wert als eines",
         principle: "Radikaler Konsequenzialismus",
         philosopher: "Hypothetischer Extremfall",
-        explanation: "Wenn wir wirklich nur Konsequenzen zählen, dann sind 5 > 1. Diese Position zeigt die Grenzen des reinen Utilitarismus. Fast niemand würde sie vertreten.",
+        explanation: "Wenn wir wirklich nur Konsequenzen zählen, dann sind 5 > 1. Diese Position zeigt die Grenzen des reinen Utilitarismus.",
         percentage: 0.5,
         theory: {
           title: "Extremer Utilitarismus",
@@ -445,7 +445,7 @@ export const dilemmata = [
         text: "Vertrauen in medizinische Versorgung bewahren",
         principle: "Regel-Utilitarismus",
         philosopher: "John Stuart Mill",
-        explanation: "Selbst für Utilitaristen ist dies falsch: Wenn Menschen Krankenhäusern nicht vertrauen können, kollabiert das Gesundheitssystem. Die Regel 'Ärzte töten nicht' maximiert langfristig das Gesamtwohl.",
+        explanation: "Wenn Menschen Krankenhäusern nicht vertrauen können, kollabiert das Gesundheitssystem. Die Regel 'Ärzte töten nicht' maximiert langfristig das Gesamtwohl.",
         percentage: 3,
         theory: {
           title: "Regel-Utilitarismus",
@@ -455,21 +455,6 @@ export const dilemmata = [
           strength: "Berücksichtigt systemische Effekte.",
           weakness: "Wann Regeln, wann Handlungen?"
         }
-      },
-      {
-        text: "Die Frage ist absurd",
-        principle: "Wittgensteins Sprachkritik",
-        philosopher: "Ludwig Wittgenstein",
-        explanation: "Diese Situation ist so weit von der Realität entfernt, dass unser moralisches Vokabular versagt. Wittgenstein: 'Worüber man nicht sprechen kann, darüber muss man schweigen.'",
-        percentage: 0.5,
-        theory: {
-          title: "Sprachphilosophie",
-          philosophers: "Ludwig Wittgenstein",
-          core: "Grenzen der Sprache sind Grenzen der Welt.",
-          details: "Gedankenexperimente können irreführend sein.",
-          strength: "Warnt vor unrealistischen Szenarien.",
-          weakness: "Verweigert die Diskussion."
-        }
       }
     ],
     background: "Judith Jarvis Thomson entwickelte dieses Extrembeispiel, um zu zeigen: Die reine Zahlen-Logik funktioniert nicht überall."
@@ -478,14 +463,14 @@ export const dilemmata = [
     id: 8,
     title: "Sophies Entscheidung",
     shortDesc: "Im KZ Auschwitz muss Sophie wählen, welches ihrer zwei Kinder leben darf.",
-    description: "Sophie Zawistowska kommt 1943 mit ihren zwei Kindern im Konzentrationslager Auschwitz an. Ein SS-Arzt zwingt sie: Sie darf eines ihrer Kinder behalten und muss entscheiden, welches. Lehnt sie die Entscheidung ab, werden beide sofort in die Gaskammer geschickt.",
+    description: "Sophie Zawistowska kommt 1943 mit ihren zwei Kindern im KZ Auschwitz an. Ein SS-Arzt zwingt sie: Sie darf eines ihrer Kinder behalten und muss entscheiden, welches. Lehnt sie ab, werden beide sofort in die Gaskammer geschickt.",
     question: "Sollte Sophie wählen?",
     options: [
       {
         text: "Wählen, um zumindest ein Kind zu retten",
         principle: "Tragischer Pragmatismus",
         philosopher: "Bernard Williams",
-        explanation: "Williams' Konzept des 'moralischen Rests': Manchmal sind alle Optionen falsch, aber Handeln ist weniger falsch als Nicht-Handeln. Ein Kind zu retten ist besser als beide zu verlieren. Die moralische Schuld liegt beim Täter.",
+        explanation: "Williams' Konzept des 'moralischen Rests': Manchmal sind alle Optionen falsch, aber Handeln ist weniger falsch. Ein Kind zu retten ist besser als beide zu verlieren. Die moralische Schuld liegt beim Täter.",
         percentage: 60,
         theory: {
           title: "Moralischer Rest",
@@ -500,7 +485,7 @@ export const dilemmata = [
         text: "Sich weigern zu wählen",
         principle: "Moralische Integrität",
         philosopher: "Emmanuel Levinas",
-        explanation: "Levinas: Die Verantwortung für den Anderen ist absolut und nicht vergleichbar. Man kann nicht zwischen zwei unendlichen Verantwortungen wählen. Sich zu weigern bewahrt Sophies moralische Integrität.",
+        explanation: "Levinas: Die Verantwortung für den Anderen ist absolut und nicht vergleichbar. Man kann nicht zwischen zwei unendlichen Verantwortungen wählen.",
         percentage: 25,
         theory: {
           title: "Verantwortung für den Anderen",
@@ -530,7 +515,7 @@ export const dilemmata = [
         text: "Losverfahren wäre am gerechtesten",
         principle: "Rawls' Fairness unter extremen Bedingungen",
         philosopher: "John Rawls",
-        explanation: "Wenn beide Kinder gleicher massen geliebt werden, wäre ein Zufallsverfahren die einzige nicht-willkürliche Methode. Ein Los würde bedeuten, dass Sophie nicht eines ihrer Kinder für 'weniger wertvoll' erklären muss.",
+        explanation: "Wenn beide Kinder gleicher massen geliebt werden, wäre ein Zufallsverfahren die einzige nicht-willkürliche Methode.",
         percentage: 2,
         theory: {
           title: "Kontraktualismus",
@@ -543,426 +528,6 @@ export const dilemmata = [
       }
     ],
     background: "William Styron beschrieb dieses Dilemma 1979 im Roman 'Sophie's Choice'. Sophie wählte - und nahm sich später das Leben."
-  },
-  {
-    id: 3,
-    title: "Das Heinz-Dilemma",
-    shortDesc: "Ein Medikament kostet 2000€, Herstellung 200€. Heinz hat nur 1000€.",
-    description: "In Europa liegt Heinzens Frau im Sterben an einer besonderen Krebsform. Es gibt ein Medikament, das sie retten könnte. Ein Apotheker verlangt 2000€ für eine kleine Dosis (Herstellung: 200€). Heinz kann nur 1000€ auftreiben. Der Apotheker lehnt Ratenzahlung ab.",
-    question: "Soll Heinz das Medikament stehlen?",
-    options: [
-      {
-        text: "Ja, stehlen ist gerechtfertigt",
-        principle: "Naturrecht",
-        philosopher: "John Locke",
-        explanation: "Das Recht auf Leben ist ein fundamentales Naturrecht, das allen Menschen von Natur aus zusteht. Es überwiegt das Eigentumsrecht. In extremen Notlagen darf Eigentum verletzt werden.",
-        percentage: 65,
-        theory: {
-          title: "Naturrecht",
-          philosophers: "John Locke",
-          core: "Leben, Freiheit, Eigentum - aber Leben steht an erster Stelle.",
-          details: "Naturrechte sind unveräusserlich und universal.",
-          strength: "Priorisiert fundamentale Rechte.",
-          weakness: "Konflikte zwischen Rechten schwer aufzulösen."
-        }
-      },
-      {
-        text: "Nein, Gesetze gelten für alle",
-        principle: "Rechtspositivismus",
-        philosopher: "Thomas Hobbes",
-        explanation: "Ohne Respekt vor Gesetzen und Eigentum herrscht Chaos. Wenn jeder nach eigenem Ermessen Gesetze bricht, kollabiert die soziale Ordnung.",
-        percentage: 15,
-        theory: {
-          title: "Rechtspositivismus",
-          philosophers: "Thomas Hobbes",
-          core: "Gesetze müssen absolut gelten.",
-          details: "Ohne Rechtssicherheit: Krieg aller gegen alle.",
-          strength: "Garantiert Ordnung.",
-          weakness: "Kann ungerechte Gesetze stützen."
-        }
-      },
-      {
-        text: "Andere Lösungen suchen",
-        principle: "Diskursethik",
-        philosopher: "Jürgen Habermas",
-        explanation: "Heinz sollte den rationalen Diskurs suchen: öffentliche Kampagnen, rechtliche Wege, Spenden sammeln. Legitime Lösungen entstehen durch kommunikatives Handeln.",
-        percentage: 18,
-        theory: {
-          title: "Diskursethik",
-          philosophers: "Jürgen Habermas",
-          core: "Normen sind nur legitim durch rationalen Diskurs.",
-          details: "Kommunikatives Handeln statt einseitiger Gewalt.",
-          strength: "Demokratisch und inklusiv.",
-          weakness: "In Notlagen oft zu langsam."
-        }
-      },
-      {
-        text: "Fürsorge für Nahestehende hat Vorrang",
-        principle: "Care-Ethik",
-        philosopher: "Carol Gilligan",
-        explanation: "Heinz hat eine besondere Verantwortung für seine Frau. Abstrakte Prinzipien ignorieren die konkreten Beziehungen. Moralische Urteile entstehen aus Fürsorge.",
-        percentage: 2,
-        theory: {
-          title: "Care-Ethik",
-          philosophers: "Carol Gilligan",
-          core: "Beziehungen und konkrete Verantwortung.",
-          details: "Fürsorge statt abstrakter Regeln.",
-          strength: "Praxisnah und beziehungsorientiert.",
-          weakness: "Bevorzugt Nahestehende."
-        }
-      }
-    ],
-    background: "Lawrence Kohlberg entwickelte dieses Dilemma 1958. Nicht die Entscheidung, sondern die Begründung offenbart die moralische Reife."
-  },
-  {
-    id: 4,
-    title: "Das Lügen-Dilemma",
-    shortDesc: "Ein Mörder sucht sein Opfer, das sich bei dir versteckt hat.",
-    description: "Ein bewaffneter Verfolger klopft an deine Tür. Er sucht einen Freund von dir, den er offensichtlich töten will. Dieser Freund hat sich tatsächlich in deinem Haus versteckt. Der Verfolger fragt dich direkt: 'Ist X hier?'",
-    question: "Sagst du die Wahrheit?",
-    options: [
-      {
-        text: "Lügen, um das Leben zu retten",
-        principle: "Konsequenzialistischer Pragmatismus",
-        philosopher: "John Stuart Mill",
-        explanation: "In dieser Situation überwiegt der Nutzen (gerettetes Leben) bei Weitem den Schaden (eine Lüge). Ein Menschenleben ist mehr wert als abstrakte Wahrhaftigkeit.",
-        percentage: 89,
-        theory: {
-          title: "Utilitarismus",
-          philosophers: "John Stuart Mill",
-          core: "Konsequenzen bestimmen Moral.",
-          details: "In Extremfällen müssen Regeln gebrochen werden.",
-          strength: "Pragmatisch und flexibel.",
-          weakness: "Untergräbt Vertrauen."
-        }
-      },
-      {
-        text: "Wahrheit sagen",
-        principle: "Absoluter Kategorischer Imperativ",
-        philosopher: "Immanuel Kant",
-        explanation: "Kant argumentierte tatsächlich: Selbst hier ist Lügen verboten. Wahrhaftigkeit ist die Basis aller Verträge. Jede Ausnahme untergräbt die Regel vollständig.",
-        percentage: 1,
-        theory: {
-          title: "Deontologie",
-          philosophers: "Immanuel Kant",
-          core: "Absolute Wahrhaftigkeit - ohne Ausnahme.",
-          details: "Konsequenzen sind irrelevant.",
-          strength: "Prinzipientreu.",
-          weakness: "Führt zu absurden Forderungen."
-        }
-      },
-      {
-        text: "Schweigen oder ausweichen",
-        principle: "Praktische Klugheit",
-        philosopher: "Aristoteles",
-        explanation: "Der tugendhafte Mensch findet die goldene Mitte: 'Ich kann diese Frage nicht beantworten.' Die Tugend der Phronesis erlaubt kreative Lösungen.",
-        percentage: 8,
-        theory: {
-          title: "Tugendethik",
-          philosophers: "Aristoteles",
-          core: "Praktische Klugheit (Phronesis).",
-          details: "Die goldene Mitte zwischen Extremen.",
-          strength: "Flexibel und kontextsensibel.",
-          weakness: "Keine klaren Regeln."
-        }
-      },
-      {
-        text: "Situation ist zu aussergewöhnlich",
-        principle: "Situationsethik",
-        philosopher: "Joseph Fletcher",
-        explanation: "Fletcher: 'Nur die Liebe zählt.' In dieser extremen Situation ist die liebende Fürsorge für den Freund das einzige Prinzip. Universelle Regeln können ausgesetzt werden.",
-        percentage: 2,
-        theory: {
-          title: "Situationsethik",
-          philosophers: "Joseph Fletcher",
-          core: "Agape (christliche Nächstenliebe) über Regeln.",
-          details: "Kontext bestimmt alles.",
-          strength: "Sehr flexibel.",
-          weakness: "Keine Orientierung."
-        }
-      }
-    ],
-    background: "Kant benutzte dieses Beispiel 1797 in 'Über ein vermeintes Recht, aus Menschenliebe zu lügen' - sehr kontrovers!"
-  },
-  {
-    id: 5,
-    title: "Das Rettungsboot-Dilemma",
-    shortDesc: "50 Personen im Boot, Platz für 10 mehr, 100 schwimmen im Wasser.",
-    description: "Ein Schiff ist gesunken. Ein Rettungsboot mit Kapazität für 60 Personen schwimmt im Meer mit bereits 50 Geretteten. Im Wasser schwimmen noch 100 Menschen, die alle ertrinken werden, wenn niemand sie rettet.",
-    question: "Wie entscheidest du?",
-    options: [
-      {
-        text: "Alle aufnehmen (Risiko: Boot kentert)",
-        principle: "Kantsche Gleichbehandlung",
-        philosopher: "Immanuel Kant",
-        explanation: "Jeder Mensch hat die gleiche Würde. Eine Selektion würde bedeuten, manche Menschen als weniger wertvoll zu behandeln. Selbst wenn es zum Tod aller führt, ist Gleichbehandlung das höhere Prinzip.",
-        percentage: 5,
-        theory: {
-          title: "Deontologie",
-          philosophers: "Kant",
-          core: "Gleiche Würde für alle.",
-          details: "Keine Person darf diskriminiert werden.",
-          strength: "Absolut fair.",
-          weakness: "Katastrophale Konsequenzen."
-        }
-      },
-      {
-        text: "10 nach objektiven Kriterien auswählen",
-        principle: "Utilitaristischer Triage-Ansatz",
-        philosopher: "Peter Singer",
-        explanation: "Rationale Selektion nach Überlebenschancen maximiert die Anzahl geretteter Leben. Kriterien könnten sein: Alter, Gesundheitszustand, Verantwortung für Abhängige.",
-        percentage: 45,
-        theory: {
-          title: "Utilitarismus",
-          philosophers: "Peter Singer",
-          core: "Maximiere gerettete Leben.",
-          details: "Alle Interessen gleich gewichten, grösstes Gesamtwohl wählen.",
-          strength: "Rettet die meisten.",
-          weakness: "Diskriminierend."
-        }
-      },
-      {
-        text: "Losverfahren für 10 Plätze",
-        principle: "Rawls' Fairness-Prinzip",
-        philosopher: "John Rawls",
-        explanation: "Hinter dem 'Schleier des Nichtwissens' würden alle einem fairen Zufallsverfahren zustimmen. Ein Losverfahren behandelt alle fair und vermeidet diskriminierende Kriterien.",
-        percentage: 38,
-        theory: {
-          title: "Kontraktualismus",
-          philosophers: "John Rawls",
-          core: "Fairness durch Schleier des Nichtwissens.",
-          details: "Gerechte Regeln, denen alle zustimmen würden.",
-          strength: "Maximal fair.",
-          weakness: "Ignoriert Fähigkeiten."
-        }
-      },
-      {
-        text: "Niemanden mehr aufnehmen",
-        principle: "Verantwortungsethik",
-        philosopher: "Hans Jonas",
-        explanation: "Verantwortung für die bereits Anvertrauten hat Vorrang. Die 50 im Boot haben dir bereits ihr Leben anvertraut. Diese Verantwortung darfst du nicht aufs Spiel setzen.",
-        percentage: 12,
-        theory: {
-          title: "Verantwortungsethik",
-          philosophers: "Hans Jonas",
-          core: "Verantwortung für Anvertraute.",
-          details: "Gewissheiten über Möglichkeiten stellen.",
-          strength: "Schützt Vertrauen.",
-          weakness: "Ignoriert andere."
-        }
-      }
-    ],
-    background: "Garrett Hardin entwickelte 'Lifeboat Ethics' 1974 als Metapher für globale Ressourcenverteilung und Migration."
-  },
-  {
-    id: 6,
-    title: "Das Autonome Fahrzeug-Dilemma",
-    shortDesc: "Ein selbstfahrendes Auto gerät in eine unvermeidbare Unfallsituation.",
-    description: "Ein autonomes Fahrzeug fährt mit fünf Passagieren durch eine schmale Strasse. Plötzlich erscheinen drei Fussgänger auf der Fahrbahn. Die einzige Alternative: Gegen eine Mauer fahren, wodurch die fünf Insassen sterben würden.",
-    question: "Wie sollte das Fahrzeug programmiert sein?",
-    options: [
-      {
-        text: "Anzahl der Toten minimieren",
-        principle: "Quantitativer Utilitarismus",
-        philosopher: "Jeremy Bentham",
-        explanation: "Bentham: 'Jeder zählt als einer, niemand mehr als einer.' Das Auto sollte mathematisch optimieren: 3 Tote sind besser als 5. Die höhere Zahl geretteter Leben ist das einzige relevante Kriterium.",
-        percentage: 34,
-        theory: {
-          title: "Utilitarismus",
-          philosophers: "Jeremy Bentham",
-          core: "Maximiere Gesamtwohl quantitativ.",
-          details: "Mathematische Optimierung von Leben.",
-          strength: "Klar und berechenbar.",
-          weakness: "Kalt und technokratisch."
-        }
-      },
-      {
-        text: "Insassen schützen",
-        principle: "Vertragstheorie",
-        philosopher: "Thomas Hobbes",
-        explanation: "Die Insassen haben durch Kauf/Nutzung einen Vertrag mit dem Hersteller geschlossen. Der Hersteller hat eine besondere Schutzpflicht. Niemand würde ein Auto kaufen, das ihn opfert.",
-        percentage: 41,
-        theory: {
-          title: "Vertragstheorie",
-          philosophers: "Thomas Hobbes",
-          core: "Verträge sind die Basis der Gesellschaft.",
-          details: "Besondere Pflicht gegenüber Vertragspartnern.",
-          strength: "Schützt Vertrauen.",
-          weakness: "Egoistisch."
-        }
-      },
-      {
-        text: "Niemanden aktiv opfern",
-        principle: "Doppelwirkungslehre",
-        philosopher: "Thomas von Aquin",
-        explanation: "Das Auto darf niemanden gezielt töten. Gegen die Mauer zu fahren wäre aktive Tötung der Insassen. Das Auto sollte bremsen - die Fussgänger sind dann tragischer Nebeneffekt.",
-        percentage: 15,
-        theory: {
-          title: "Doppelwirkung",
-          philosophers: "Thomas von Aquin",
-          core: "Beabsichtigt vs. in Kauf genommen.",
-          details: "Direkte Tötung ist moralisch anders.",
-          strength: "Erklärt Intuitionen.",
-          weakness: "Schwer abzugrenzen."
-        }
-      },
-      {
-        text: "Keine Qualifizierung nach Merkmalen",
-        principle: "Deutsche Ethik-Kommission",
-        philosopher: "Grundgesetz Art. 1",
-        explanation: "Die deutsche Ethik-Kommission (2017): Jede Qualifizierung nach Alter, Geschlecht ist unzulässig. Die Menschenwürde verbietet Aufrechnung. Das Auto sollte nur zwischen Personengruppen unterscheiden.",
-        percentage: 10,
-        theory: {
-          title: "Würde-Ethik",
-          philosophers: "Grundgesetz",
-          core: "Menschenwürde ist unantastbar.",
-          details: "Keine Aufrechnung von Menschenleben.",
-          strength: "Absoluter Würdeschutz.",
-          weakness: "Keine Lösung in Dilemmata."
-        }
-      }
-    ],
-    background: "Das MIT 'Moral Machine' Experiment (2018) sammelte 40 Millionen Entscheidungen aus 233 Ländern."
-  },
-  {
-    id: 7,
-    title: "Das Chirurgen-Dilemma",
-    shortDesc: "5 Patienten brauchen Organe. 1 gesunder Tourist passt perfekt.",
-    description: "Ein Transplantations-Chirurg hat fünf Patienten, die alle sterben werden, wenn sie nicht sofort Organtransplantationen bekommen. Ein junger, gesunder Tourist kommt wegen einer kleineren Verletzung in dieselbe Klinik. Seine Gewebemerkmale passen perfekt zu allen fünf Patienten.",
-    question: "Darf der Chirurg den Touristen opfern?",
-    options: [
-      {
-        text: "Nein, das ist Mord",
-        principle: "Kategorischer Imperativ",
-        philosopher: "Immanuel Kant",
-        explanation: "Dies wäre die extremste Form der Instrumentalisierung: Ein Mensch wird zur reinen Ersatzteilquelle degradiert. Selbst wenn 1000 Menschen gerettet würden, bliebe es unzulässig. Die Menschenwürde ist nicht abwägbar.",
-        percentage: 96,
-        theory: {
-          title: "Deontologie",
-          philosophers: "Immanuel Kant",
-          core: "Der Mensch ist Zweck an sich selbst.",
-          details: "Niemals bloss als Mittel behandeln.",
-          strength: "Absoluter Würdeschutz.",
-          weakness: "Keine - hier eindeutig."
-        }
-      },
-      {
-        text: "Fünf Leben sind mehr wert als eines",
-        principle: "Radikaler Konsequenzialismus",
-        philosopher: "Hypothetischer Extremfall",
-        explanation: "Wenn wir wirklich nur Konsequenzen zählen, dann sind 5 > 1. Diese Position zeigt die Grenzen des reinen Utilitarismus. Fast niemand würde sie vertreten - vielleicht ist Utilitarismus unvollständig.",
-        percentage: 0.5,
-        theory: {
-          title: "Extremutilitarismus",
-          philosophers: "Hypothetisch",
-          core: "Pure Zahlenlogik.",
-          details: "Zeigt Grenzen des Utilitarismus.",
-          strength: "Logisch konsistent.",
-          weakness: "Völlig absurd."
-        }
-      },
-      {
-        text: "Vertrauen in medizinische Versorgung bewahren",
-        principle: "Regel-Utilitarismus",
-        philosopher: "John Stuart Mill",
-        explanation: "Selbst für Utilitaristen ist dies falsch: Wenn Menschen Krankenhäusern nicht vertrauen können, kollabiert das Gesundheitssystem. Die Regel 'Ärzte töten nicht' maximiert langfristig das Gesamtwohl.",
-        percentage: 3,
-        theory: {
-          title: "Regel-Utilitarismus",
-          philosophers: "John Stuart Mill",
-          core: "Regeln maximieren langfristig Wohl.",
-          details: "Nicht einzelne Handlung, sondern Regel zählt.",
-          strength: "Vermeidet Absurditäten.",
-          weakness: "Wann Regeln, wann Handlungen?"
-        }
-      },
-      {
-        text: "Die Frage ist absurd",
-        principle: "Sprachkritik",
-        philosopher: "Ludwig Wittgenstein",
-        explanation: "Diese hypothetische Situation ist so weit von der Realität entfernt, dass unser moralisches Vokabular versagt. Wittgenstein: 'Worüber man nicht sprechen kann, darüber muss man schweigen.'",
-        percentage: 0.5,
-        theory: {
-          title: "Sprachkritik",
-          philosophers: "Ludwig Wittgenstein",
-          core: "Grenzen der Sprache = Grenzen der Moral.",
-          details: "Unrealistische Gedankenexperimente sind irreführend.",
-          strength: "Methodenkritik.",
-          weakness: "Vermeidet schwierige Fragen."
-        }
-      }
-    ],
-    background: "Judith Jarvis Thomson entwickelte dieses Extrembeispiel, um zu zeigen: Reine Zahlenlogik funktioniert nicht überall."
-  },
-  {
-    id: 8,
-    title: "Sophies Entscheidung",
-    shortDesc: "Im KZ Auschwitz muss Sophie wählen, welches Kind leben darf.",
-    description: "Sophie Zawistowska kommt 1943 mit ihren zwei Kindern im Konzentrationslager Auschwitz an. Ein SS-Arzt zwingt sie zu einer unmöglichen Wahl: Sie darf eines ihrer Kinder behalten und muss entscheiden, welches. Lehnt sie die Entscheidung ab, werden beide sofort in die Gaskammer geschickt.",
-    question: "Sollte Sophie wählen?",
-    options: [
-      {
-        text: "Wählen, um zumindest ein Kind zu retten",
-        principle: "Tragischer Pragmatismus",
-        philosopher: "Bernard Williams",
-        explanation: "Williams' Konzept des 'moralischen Rests': Manchmal sind alle Optionen falsch, aber Handeln ist weniger falsch als Nicht-Handeln. Ein Kind zu retten ist besser als beide zu verlieren. Die moralische Schuld liegt beim Täter.",
-        percentage: 60,
-        theory: {
-          title: "Moralischer Rest",
-          philosophers: "Bernard Williams",
-          core: "Manchmal ist alles falsch.",
-          details: "Tragische Situationen hinterlassen 'moralischen Schmutz'.",
-          strength: "Realistisch.",
-          weakness: "Lebenslange Traumatisierung."
-        }
-      },
-      {
-        text: "Sich weigern zu wählen",
-        principle: "Moralische Integrität",
-        philosopher: "Emmanuel Levinas",
-        explanation: "Levinas: Die Verantwortung für den Anderen ist absolut und nicht vergleichbar. Man kann nicht zwischen zwei unendlichen Verantwortungen wählen. Sich zu weigern bewahrt Sophies moralische Integrität.",
-        percentage: 25,
-        theory: {
-          title: "Absolute Verantwortung",
-          philosophers: "Emmanuel Levinas",
-          core: "Verantwortung ist absolut, nicht vergleichbar.",
-          details: "Nicht zum Werkzeug des Bösen werden.",
-          strength: "Bewahrt Integrität.",
-          weakness: "Beide Kinder sterben."
-        }
-      },
-      {
-        text: "Die Wahl ist eine unmögliche Zumutung",
-        principle: "Grenzen der Moral",
-        philosopher: "Hannah Arendt",
-        explanation: "Arendt über die 'Banalität des Bösen': Dieses Dilemma zeigt die Grenzen moralischer Theorien. Wenn das Böse radikal genug ist, versagen alle moralischen Kategorien. Es gibt keine 'richtige' Entscheidung.",
-        percentage: 13,
-        theory: {
-          title: "Grenzen der Moral",
-          philosophers: "Hannah Arendt",
-          core: "Radikales Böse sprengt moralische Kategorien.",
-          details: "Keine Theorie kann hier helfen.",
-          strength: "Ehrlich.",
-          weakness: "Bietet keine Orientierung."
-        }
-      },
-      {
-        text: "Losverfahren wäre am gerechtesten",
-        principle: "Rawls unter extremen Bedingungen",
-        philosopher: "John Rawls",
-        explanation: "Wenn beide Kinder gleicherweise geliebt werden, wäre ein Zufallsverfahren die einzige nicht-willkürliche Methode. Ein Los würde bedeuten, dass Sophie nicht eines ihrer Kinder für 'weniger wertvoll' erklären muss.",
-        percentage: 2,
-        theory: {
-          title: "Fairness unter Zwang",
-          philosophers: "John Rawls",
-          core: "Zufall als fairste Methode.",
-          details: "Vermeidet willkürliche Bewertung.",
-          strength: "Formal fair.",
-          weakness: "Kann man in diesem Moment rational sein?"
-        }
-      }
-    ],
-    background: "William Styron beschrieb dies 1979 in 'Sophie's Choice'. Sophie wählte - und nahm sich später das Leben. Es zeigt: Manche Zwangslagen haben keine 'Lösung'."
   }
 ];
 
