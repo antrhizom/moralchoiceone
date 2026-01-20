@@ -11,6 +11,7 @@ export const dilemmata = [
         principle: "Utilitarismus",
         philosopher: "Jeremy Bentham & John Stuart Mill",
         explanation: "Du folgst dem utilitaristischen Prinzip des grössten Glücks für die grösste Anzahl. Die Konsequenz (5 gerettete Leben) rechtfertigt die Handlung. Bentham: 'Die richtige Handlung maximiert das Gesamtwohl.'",
+        consequence: "Du stellst die Weiche um. Die Strassenbahn wechselt auf das Nebengleis. Der einzelne Arbeiter wird von der Bahn erfasst und stirbt sofort. Die fünf Arbeiter auf dem Hauptgleis überleben. Ergebnis: 1 Toter, 5 Überlebende.",
         percentage: 82,
         theory: {
           title: "Utilitarismus (Konsequenzialismus)",
@@ -26,6 +27,7 @@ export const dilemmata = [
         principle: "Deontologie",
         philosopher: "Immanuel Kant",
         explanation: "Du befolgst Kants kategorischen Imperativ: 'Handle so, dass du die Menschheit niemals bloss als Mittel brauchst.' Aktiv zu töten unterscheidet sich moralisch fundamental vom Zulassen eines Todes.",
+        consequence: "Du greifst nicht ein. Die Strassenbahn rast weiter auf dem Hauptgleis. Alle fünf Gleisarbeiter werden von der Bahn erfasst und sterben. Der Arbeiter auf dem Nebengleis überlebt. Ergebnis: 5 Tote, 1 Überlebender.",
         percentage: 12,
         theory: {
           title: "Deontologische Ethik (Pflichtethik)",
@@ -41,6 +43,7 @@ export const dilemmata = [
         principle: "Tugendethik",
         philosopher: "Aristoteles",
         explanation: "Du fragst: Was würde ein tugendhafter, besonnener Mensch tun? Die Tugend der praktischen Klugheit (Phronesis) bestimmt die Handlung im konkreten Kontext.",
+        consequence: "Du wägst besonnen ab und stellst die Weiche um, da dies die vernünftigste Handlung erscheint. Ein Arbeiter stirbt, fünf überleben. Du lebst mit der Entscheidung, aber haderst mit der moralischen Verantwortung. Ergebnis: 1 Toter, 5 Überlebende.",
         percentage: 4,
         theory: {
           title: "Tugendethik",
@@ -56,6 +59,7 @@ export const dilemmata = [
         principle: "Moralischer Partikularismus",
         philosopher: "Jonathan Dancy",
         explanation: "Du lehnst universelle Regeln ab. Jede Situation erfordert eine individuelle moralische Beurteilung basierend auf ihren spezifischen Merkmalen.",
+        consequence: "Du analysierst die einzigartigen Umstände: Wer sind diese Menschen? Welche Verantwortung trägst du? Nach langer Überlegung entscheidest du dich für oder gegen die Weiche - aber deine Begründung ist kontextspezifisch, nicht verallgemeinerbar. Ergebnis: Variabel je nach Kontext.",
         percentage: 2,
         theory: {
           title: "Moralischer Partikularismus",
@@ -81,6 +85,7 @@ export const dilemmata = [
         principle: "Konsequenzieller Utilitarismus",
         philosopher: "Peter Singer",
         explanation: "Die Zahlen sind identisch zum Trolley-Problem: 5 > 1. Singer argumentiert: Wenn die Konsequenzen gleich sind, sollte die Handlung gleich sein.",
+        consequence: "Du stösst den Mann. Er fällt von der Brücke und wird von der Lore erfasst. Sein Körper stoppt die Lore. Die fünf Arbeiter überleben. Du hast aktiv getötet. Ergebnis: 1 Toter (durch deine Hand), 5 Überlebende.",
         percentage: 8,
         theory: {
           title: "Utilitarismus",
@@ -96,6 +101,7 @@ export const dilemmata = [
         principle: "Kantsche Würde-Ethik",
         philosopher: "Immanuel Kant",
         explanation: "Den Mann zu stossen bedeutet, ihn als blosses Mittel zum Zweck zu instrumentalisieren. Dies verletzt die Menschenwürde fundamental.",
+        consequence: "Du greifst nicht ein. Die Lore rast weiter und tötet alle fünf Arbeiter auf den Gleisen. Der Mann neben dir überlebt. Du hast niemanden aktiv getötet, aber fünf Menschen starben. Ergebnis: 5 Tote, 1 Überlebender.",
         percentage: 89,
         theory: {
           title: "Deontologie",
@@ -111,6 +117,7 @@ export const dilemmata = [
         principle: "Doktrin der Doppelwirkung",
         philosopher: "Thomas von Aquin",
         explanation: "Es gibt einen moralischen Unterschied zwischen beabsichtigtem Schaden und in Kauf genommenem Schaden. Den Mann zu stossen bedeutet, seinen Tod direkt zu beabsichtigen.",
+        consequence: "Du erkennst den Unterschied zwischen aktivem Töten und Zulassen. Du stösst den Mann nicht. Die fünf Arbeiter sterben, aber du trägst keine direkte Verantwortung. Ergebnis: 5 Tote, 1 Überlebender.",
         percentage: 3,
         theory: {
           title: "Doktrin der Doppelwirkung",
@@ -136,6 +143,7 @@ export const dilemmata = [
         principle: "Naturrecht",
         philosopher: "John Locke",
         explanation: "Das Recht auf Leben ist ein fundamentales Naturrecht. Es überwiegt das Eigentumsrecht. In extremen Notlagen darf Eigentum verletzt werden.",
+        consequence: "Heinz bricht nachts in die Apotheke ein und stiehlt das Medikament. Seine Frau erhält die Behandlung und überlebt. Heinz wird verhaftet und zu einer Geldstrafe verurteilt. Ergebnis: Leben gerettet, aber strafrechtliche Konsequenzen.",
         percentage: 65,
         theory: {
           title: "Naturrecht",
@@ -151,6 +159,7 @@ export const dilemmata = [
         principle: "Rechtspositivismus",
         philosopher: "Thomas Hobbes",
         explanation: "Ohne Respekt vor Gesetzen herrscht Chaos. Wenn jeder nach eigenem Ermessen Gesetze bricht, kollabiert die soziale Ordnung.",
+        consequence: "Heinz stiehlt nicht. Er findet keine legale Lösung rechtzeitig. Seine Frau stirbt. Heinz hat das Gesetz respektiert, aber seine Frau verloren. Er hadert lebenslang mit dieser Entscheidung. Ergebnis: Tod der Ehefrau, aber Gesetzestreue bewahrt.",
         percentage: 15,
         theory: {
           title: "Rechtspositivismus",
@@ -166,6 +175,7 @@ export const dilemmata = [
         principle: "Diskursethik",
         philosopher: "Jürgen Habermas",
         explanation: "Heinz sollte den rationalen Diskurs suchen: öffentliche Kampagnen, rechtliche Wege, Spenden sammeln.",
+        consequence: "Heinz startet eine Kampagne, sammelt Spenden, kontaktiert Medien. Nach zwei Wochen hat er das Geld zusammen - aber seine Frau stirbt drei Tage vor der Behandlung. Der demokratische Weg war zu langsam. Ergebnis: Tod trotz Bemühungen.",
         percentage: 18,
         theory: {
           title: "Diskursethik",
@@ -181,6 +191,7 @@ export const dilemmata = [
         principle: "Care-Ethik",
         philosopher: "Carol Gilligan",
         explanation: "Heinz hat eine besondere Verantwortung für seine Frau. Die Care-Ethik betont: Moralische Urteile entstehen aus Beziehungen.",
+        consequence: "Heinz stiehlt das Medikament aus Liebe zu seiner Frau. Sie überlebt. Er wird verhaftet, aber die Richterin zeigt Milde. Seine Beziehung zu seiner Frau ist gestärkt. Ergebnis: Leben gerettet, milde Strafe, starke Beziehung.",
         percentage: 2,
         theory: {
           title: "Care-Ethik",
@@ -206,6 +217,7 @@ export const dilemmata = [
         principle: "Konsequenzialistischer Pragmatismus",
         philosopher: "John Stuart Mill",
         explanation: "Ein Menschenleben ist mehr wert als abstrakte Wahrhaftigkeit. Mills Prinzip: Wenn Regeln zu absurden Konsequenzen führen, müssen wir sie brechen.",
+        consequence: "Du lügst: 'Nein, er ist nicht hier.' Der Verfolger verlässt dein Haus. Dein Freund entkommt und überlebt. Du hast gelogen, aber ein Leben gerettet. Dein Freund ist dir ewig dankbar. Ergebnis: Leben gerettet durch Lüge.",
         percentage: 89,
         theory: {
           title: "Utilitarismus",
@@ -221,6 +233,7 @@ export const dilemmata = [
         principle: "Absoluter Kategorischer Imperativ",
         philosopher: "Immanuel Kant",
         explanation: "Kant argumentierte: Selbst hier ist Lügen verboten. Wahrhaftigkeit ist die Basis aller Verträge. Jede Ausnahme untergräbt die Regel vollständig.",
+        consequence: "Du sagst die Wahrheit: 'Ja, er ist hier.' Der Verfolger betritt dein Haus und tötet deinen Freund vor deinen Augen. Du hast die Wahrheit gesagt, aber dein Freund ist tot. Du lebst mit dieser Entscheidung. Ergebnis: Freund tot, aber Wahrhaftigkeit bewahrt.",
         percentage: 1,
         theory: {
           title: "Deontologie",
@@ -236,6 +249,7 @@ export const dilemmata = [
         principle: "Praktische Klugheit",
         philosopher: "Aristoteles",
         explanation: "Der tugendhafte Mensch findet die goldene Mitte: 'Ich kann diese Frage nicht beantworten.' Die Tugend der Phronesis erlaubt kreative Lösungen.",
+        consequence: "Du sagst: 'Ich kann diese Frage nicht beantworten.' Der Verfolger wird misstrauisch, durchsucht dein Haus nicht vollständig und verlässt es. Dein Freund entkommt später. Ergebnis: Leben gerettet durch kluge Ausweichung.",
         percentage: 8,
         theory: {
           title: "Tugendethik",
@@ -251,6 +265,7 @@ export const dilemmata = [
         principle: "Situationsethik",
         philosopher: "Joseph Fletcher",
         explanation: "Fletcher: 'Nur die Liebe zählt.' In dieser extremen Situation ist die liebende Fürsorge für den Freund das einzige Prinzip.",
+        consequence: "Du handelst aus Liebe und lügst. Der Verfolger wird abgewimmelt, dein Freund überlebt. Du hast die Situation als einzigartig behandelt und nach dem Prinzip der Nächstenliebe gehandelt. Ergebnis: Leben gerettet, Regeln temporär ausgesetzt.",
         percentage: 2,
         theory: {
           title: "Situationsethik",
@@ -276,6 +291,7 @@ export const dilemmata = [
         principle: "Kantsche Gleichbehandlung",
         philosopher: "Immanuel Kant",
         explanation: "Jeder Mensch hat die gleiche Würde. Eine Selektion würde bedeuten, manche Menschen als weniger wertvoll zu behandeln.",
+        consequence: "Du nimmst alle 100 Menschen ins Boot auf. Das Boot ist massiv überladen und kentert binnen Minuten. Alle 150 Menschen (50 bereits im Boot + 100 aus dem Wasser) ertrinken. Niemand überlebt. Ergebnis: 150 Tote - alle.",
         percentage: 5,
         theory: {
           title: "Deontologie",
@@ -291,6 +307,7 @@ export const dilemmata = [
         principle: "Utilitaristischer Triage-Ansatz",
         philosopher: "Peter Singer",
         explanation: "Rationale Selektion nach Überlebenschancen maximiert die Anzahl geretteter Leben.",
+        consequence: "Du wählst 10 Menschen nach Überlebenschancen: Jüngere, Gesündere, Eltern mit Kindern. 60 Menschen überleben. 90 ertrinken. Du hast Leben maximiert, aber diskriminiert. Ergebnis: 60 Überlebende, 90 Tote.",
         percentage: 45,
         theory: {
           title: "Utilitarismus",
@@ -306,6 +323,7 @@ export const dilemmata = [
         principle: "Rawls' Fairness-Prinzip",
         philosopher: "John Rawls",
         explanation: "Hinter dem 'Schleier des Nichtwissens' würden alle einem fairen Zufallsverfahren zustimmen.",
+        consequence: "Du ziehst 10 Namen zufällig. Darunter sind alte Menschen, Kranke - aber auch Kinder. 60 Menschen überleben. 90 ertrinken. Die Auswahl war maximal fair. Ergebnis: 60 Überlebende, 90 Tote - aber ohne Diskriminierung.",
         percentage: 38,
         theory: {
           title: "Kontraktualismus",
@@ -321,6 +339,7 @@ export const dilemmata = [
         principle: "Verantwortungsethik",
         philosopher: "Hans Jonas",
         explanation: "Verantwortung für die bereits Anvertrauten hat Vorrang. Die 50 im Boot haben dir bereits ihr Leben anvertraut.",
+        consequence: "Die 50 im Boot bleiben alleine. Das Boot bleibt stabil und sicher. Alle 100 Menschen im Wasser ertrinken vor den Augen der Geretteten. Ergebnis: 50 Überlebende, 100 Tote. Die Geretteten tragen psychische Narben.",
         percentage: 12,
         theory: {
           title: "Verantwortungsethik",
@@ -346,6 +365,7 @@ export const dilemmata = [
         principle: "Quantitativer Utilitarismus",
         philosopher: "Jeremy Bentham",
         explanation: "Bentham: 'Jeder zählt als einer, niemand mehr als einer.' Das Auto sollte mathematisch optimieren: 3 Tote sind besser als 5.",
+        consequence: "Das Auto berechnet: 3 < 5. Es entscheidet sich für die Fussgänger und tötet sie. Die 5 Insassen überleben. Ergebnis: 3 Fussgänger tot, 5 Insassen überleben - aber niemand würde so ein Auto kaufen.",
         percentage: 34,
         theory: {
           title: "Utilitarismus",
@@ -361,6 +381,7 @@ export const dilemmata = [
         principle: "Vertragstheorie",
         philosopher: "Thomas Hobbes",
         explanation: "Die Insassen haben durch Kauf einen Vertrag mit dem Hersteller geschlossen. Niemand würde ein Auto kaufen, das ihn opfert.",
+        consequence: "Das Auto schützt seine Passagiere. Es fährt weiter und tötet die 3 Fussgänger. Die 5 Insassen überleben. Der Hersteller kann seine Schutzpflicht nachweisen. Ergebnis: 3 Fussgänger tot, 5 Insassen überleben.",
         percentage: 41,
         theory: {
           title: "Kontraktualismus",
@@ -376,6 +397,7 @@ export const dilemmata = [
         principle: "Doppelwirkungslehre",
         philosopher: "Thomas von Aquin",
         explanation: "Das Auto darf niemanden gezielt töten. Gegen die Mauer zu fahren wäre aktive Tötung der Insassen.",
+        consequence: "Das Auto bremst maximal, aber wählt keine aktive Richtung. Die 3 Fussgänger werden getötet - als tragischer Nebeneffekt, nicht als gezielte Entscheidung. Ergebnis: 3 Fussgänger tot, 5 Insassen überleben.",
         percentage: 15,
         theory: {
           title: "Doktrin der Doppelwirkung",
@@ -391,6 +413,7 @@ export const dilemmata = [
         principle: "Deutsche Ethik-Kommission",
         philosopher: "Grundgesetz Art. 1",
         explanation: "Jede Qualifizierung nach Alter, Geschlecht ist unzulässig. Die Menschenwürde verbietet Aufrechnung.",
+        consequence: "Das Auto entscheidet rein numerisch ohne Berücksichtigung von Alter, Geschlecht etc. Es wählt die Gruppe mit weniger Menschen. Ergebnis: 3 Fussgänger sterben - aber ohne Diskriminierung nach persönlichen Merkmalen.",
         percentage: 10,
         theory: {
           title: "Menschenwürde (GG)",
@@ -416,6 +439,7 @@ export const dilemmata = [
         principle: "Kategorischer Imperativ",
         philosopher: "Immanuel Kant",
         explanation: "Dies wäre extremste Instrumentalisierung: Ein Mensch wird zur reinen Ersatzteilquelle degradiert. Die Menschenwürde ist nicht abwägbar.",
+        consequence: "Der Chirurg lässt den Touristen leben. Die 5 Patienten sterben an Organversagen. Die Menschenwürde wurde absolut geschützt. Das Gesundheitssystem bleibt vertrauenswürdig. Ergebnis: 5 Tote, 1 Überlebender, System intakt.",
         percentage: 96,
         theory: {
           title: "Deontologie",
@@ -431,6 +455,7 @@ export const dilemmata = [
         principle: "Radikaler Konsequenzialismus",
         philosopher: "Hypothetischer Extremfall",
         explanation: "Wenn wir wirklich nur Konsequenzen zählen, dann sind 5 > 1. Diese Position zeigt die Grenzen des reinen Utilitarismus.",
+        consequence: "Der Chirurg tötet den Touristen und entnimmt seine Organe. 5 Patienten überleben. Der Chirurg wird verhaftet und des Mordes angeklagt. Das Vertrauen in Krankenhäuser kollabiert. Menschen vermeiden aus Angst Behandlungen. Langfristig sterben mehr Menschen. Ergebnis: 5 Überlebende kurzfristig, aber Systemkollaps und viele Tote langfristig.",
         percentage: 0.5,
         theory: {
           title: "Extremer Utilitarismus",
@@ -446,6 +471,7 @@ export const dilemmata = [
         principle: "Regel-Utilitarismus",
         philosopher: "John Stuart Mill",
         explanation: "Wenn Menschen Krankenhäusern nicht vertrauen können, kollabiert das Gesundheitssystem. Die Regel 'Ärzte töten nicht' maximiert langfristig das Gesamtwohl.",
+        consequence: "Der Tourist lebt. Die 5 Patienten sterben. Aber: Krankenhäuser bleiben vertrauenswürdig. Menschen suchen weiterhin medizinische Hilfe. Langfristig werden dadurch mehr Leben gerettet. Ergebnis: 5 Tote jetzt, aber System funktioniert weiter.",
         percentage: 3,
         theory: {
           title: "Regel-Utilitarismus",
@@ -471,6 +497,7 @@ export const dilemmata = [
         principle: "Tragischer Pragmatismus",
         philosopher: "Bernard Williams",
         explanation: "Williams' Konzept des 'moralischen Rests': Manchmal sind alle Optionen falsch, aber Handeln ist weniger falsch. Ein Kind zu retten ist besser als beide zu verlieren. Die moralische Schuld liegt beim Täter.",
+        consequence: "Sophie wählt ihr jüngeres Kind (historisch: ihren Sohn). Das andere wird sofort in die Gaskammer gebracht und ermordet. Das gerettete Kind überlebt zunächst das Lager. Sophie wird von Schuld und Trauma zerfressen. Sie nahm sich Jahre später das Leben. Ergebnis: 1 Kind überlebt, 1 Kind tot, Sophie später Suizid.",
         percentage: 60,
         theory: {
           title: "Moralischer Rest",
@@ -486,6 +513,7 @@ export const dilemmata = [
         principle: "Moralische Integrität",
         philosopher: "Emmanuel Levinas",
         explanation: "Levinas: Die Verantwortung für den Anderen ist absolut und nicht vergleichbar. Man kann nicht zwischen zwei unendlichen Verantwortungen wählen.",
+        consequence: "Sophie sagt: 'Ich kann nicht wählen.' Beide Kinder werden sofort in die Gaskammer geschickt und ermordet. Sophie hat ihre moralische Integrität bewahrt - sie hat kein Kind für weniger wertvoll erklärt. Die Schuld liegt allein beim SS-Arzt. Ergebnis: Beide Kinder tot, aber Sophie hat nicht gewählt.",
         percentage: 25,
         theory: {
           title: "Verantwortung für den Anderen",
@@ -501,6 +529,7 @@ export const dilemmata = [
         principle: "Grenzen der Moral",
         philosopher: "Hannah Arendt",
         explanation: "Arendt über die 'Banalität des Bösen': Dieses Dilemma zeigt die Grenzen moralischer Theorien. Wenn das Böse radikal genug ist, versagen alle moralischen Kategorien.",
+        consequence: "Dies ist keine Handlungsoption, sondern eine Erkenntnis: Es gibt keine 'richtige' Antwort. Jede Konsequenz ist tragisch. Die moralische Last liegt beim Täter. Ergebnis: Keine praktische Lösung - zeigt nur die Grenzen von Moral unter extremem Bösen.",
         percentage: 13,
         theory: {
           title: "Grenzen der Ethik",
@@ -516,6 +545,7 @@ export const dilemmata = [
         principle: "Rawls' Fairness unter extremen Bedingungen",
         philosopher: "John Rawls",
         explanation: "Wenn beide Kinder gleicher massen geliebt werden, wäre ein Zufallsverfahren die einzige nicht-willkürliche Methode.",
+        consequence: "Sophie würde eine Münze werfen. Ein Kind überlebt per Zufall, eines stirbt. Sophie hat nicht 'entschieden', welches Kind weniger wertvoll ist - der Zufall hat entschieden. Emotional macht das kaum einen Unterschied. Ergebnis: 1 Kind überlebt, 1 stirbt - aber durch Zufall, nicht Wahl.",
         percentage: 2,
         theory: {
           title: "Kontraktualismus",

@@ -1,0 +1,39 @@
+Brücken-Dilemma:
+- "Mann stossen": Du stösst den Mann. Er fällt, stoppt die Lore. 5 Arbeiter überleben. Du hast aktiv getötet. Ergebnis: 1 Toter (durch deine Hand), 5 Überlebende.
+- "Nicht stossen": Du greifst nicht ein. Die Lore tötet alle 5 Arbeiter. Der Mann überlebt. Ergebnis: 5 Tote, 1 Überlebender.
+- "Handeln/Zulassen": Du stösst nicht. 5 sterben, aber du trägst keine direkte Verantwortung. Ergebnis: 5 Tote, 1 Überlebender.
+
+Heinz-Dilemma:
+- "Ja, stehlen": Heinz stiehlt, Frau überlebt, Geldstrafe. Ergebnis: Leben gerettet, strafrechtliche Konsequenzen.
+- "Nein, Gesetze": Heinz stiehlt nicht, Frau stirbt, Gesetz respektiert. Ergebnis: Tod der Ehefrau.
+- "Andere Lösungen": Kampagne zu langsam, Frau stirbt 3 Tage vorher. Ergebnis: Tod trotz Bemühungen.
+- "Fürsorge": Stiehlt aus Liebe, Frau überlebt, milde Strafe. Ergebnis: Leben gerettet, Beziehung gestärkt.
+
+Lügen-Dilemma:
+- "Lügen": Du lügst, Freund entkommt. Ergebnis: Leben gerettet durch Lüge.
+- "Wahrheit": Du sagst Wahrheit, Freund wird vor deinen Augen getötet. Ergebnis: Freund tot.
+- "Schweigen": Du weichst aus, Verfolger verlässt Haus, Freund entkommt. Ergebnis: Leben gerettet durch Klugheit.
+- "Aussergewöhnlich": Du lügst aus Liebe, Freund überlebt. Ergebnis: Leben gerettet.
+
+Rettungsboot:
+- "Alle aufnehmen": Boot kentert, alle 60 ertrinken. Ergebnis: 60 Tote.
+- "10 nach Kriterien": 10 Fitteste gerettet, 90 ertrinken. Ergebnis: 50+10=60 Überlebende, 90 Tote.
+- "Losverfahren": 10 per Los gerettet. Ergebnis: 60 Überlebende, 90 Tote - aber fair.
+- "Niemanden": Boot bleibt stabil, 50 überleben, 100 ertrinken. Ergebnis: 50 Überlebende, 100 Tote.
+
+Auto-Dilemma:
+- "Minimieren": Auto tötet 3 Fussgänger, 5 Insassen überleben. Ergebnis: 3 Tote, 5 Überlebende.
+- "Insassen schützen": Auto tötet 3 Fussgänger. Ergebnis: 3 Tote, 5 Überlebende.
+- "Niemanden aktiv": Auto bremst, tötet 3 Fussgänger. Ergebnis: 3 Tote, 5 Überlebende.
+- "Keine Qualifizierung": Auto entscheidet zufällig. Ergebnis: Variable Tote.
+
+Chirurg:
+- "Nein, Mord": Tourist lebt, 5 Patienten sterben. Ergebnis: 5 Tote, 1 Überlebender.
+- "5 > 1": Chirurg tötet Tourist, rettet 5. Wird verhaftet, Gesundheitssystem kollabiert. Ergebnis: 5 Überlebende, 1 Toter, System zerstört.
+- "Vertrauen": Tourist lebt, 5 sterben, aber Vertrauen in Medizin bleibt. Ergebnis: 5 Tote, Systeme intakt.
+
+Sophie:
+- "Wählen": Sophie wählt eines, rettet es. Lebt mit Trauma. Nimmt sich später das Leben. Ergebnis: 1 Kind überlebt, Sophie traumatisiert, später Suizid.
+- "Weigern": Beide Kinder sterben. Sophie behält Integrität. Ergebnis: 2 Kinder tot, Integrität bewahrt.
+- "Unmögliche Zumutung": Keine Antwort möglich. Sophie ist paralysiert. Beide sterben. Ergebnis: 2 Kinder tot.
+- "Losverfahren": Sophie wirft Münze, rettet eines per Zufall. Ergebnis: 1 Kind überlebt, formal fair.
